@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		B17502962B41F47200113CD5 /* Dictionaries.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Dictionaries.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B1DD64442B4170FF00F72D5E /* Variables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Variables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B1DD64452B417A9200F72D5E /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B1DD64462B417F0600F72D5E /* StringInterpolation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StringInterpolation.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B1DD64472B4182DF00F72D5E /* ControlFlow.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ControlFlow.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B1DD64482B418A1C00F72D5E /* Arrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Arrays.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B1E609522B48285D0076517A /* Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B1E609532B482E8C0076517A /* Structures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Structures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		B1DD643D2B4170DA00F72D5E = {
 			isa = PBXGroup;
 			children = (
+				B1E609532B482E8C0076517A /* Structures.playground */,
+				B1E609522B48285D0076517A /* Closures.playground */,
+				B17502962B41F47200113CD5 /* Dictionaries.playground */,
 				B1DD64482B418A1C00F72D5E /* Arrays.playground */,
 				B1DD64472B4182DF00F72D5E /* ControlFlow.playground */,
 				B1DD64462B417F0600F72D5E /* StringInterpolation.playground */,
