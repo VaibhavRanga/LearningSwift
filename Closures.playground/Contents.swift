@@ -3,7 +3,7 @@ func customAdd(num1: Int, num2: Int, sum: (Int, Int) -> Int) -> Int {
 }
 
 let result = customAdd(num1: 10, num2: 25) { (num1: Int, num2: Int) in
-    num1 * num2
+    num1 + num2
 }
 
 let result1 = customAdd(num1: 20, num2: 10) { num1, num2 in
@@ -26,4 +26,3 @@ func addition(value: Int, function: (Int) -> Int) -> Int {
 }
 
 let additionResult = addition(value: 50, function: add20(_:))
-

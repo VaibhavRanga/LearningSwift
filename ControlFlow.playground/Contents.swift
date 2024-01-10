@@ -18,6 +18,12 @@ if age < 18 && isMale == true {
     print("You are an adult")
 }
 
+//Ternary expression
+
+let isAdult = false
+
+isAdult ? print("Adult") : print("Not an adult")
+
 //and operator
 //&&
 
