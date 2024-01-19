@@ -98,6 +98,7 @@ print(status.statusMessage)
 
 
 
+
 // MARK: Using enums with case iterable
 
 enum Colors: CaseIterable {

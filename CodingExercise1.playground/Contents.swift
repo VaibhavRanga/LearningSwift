@@ -1,3 +1,4 @@
+
 func oddOrEven(lowerBound: Int, upperBound: Int, printEven: Bool) {
     for i in lowerBound ... upperBound {
         if printEven {

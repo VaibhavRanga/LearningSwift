@@ -70,3 +70,21 @@ func sendConfirmation() {
 //phoneNumber = "33334444"
 
 sendConfirmation()
+
+print("------------------------------------------------")
+
+
+
+
+
+
+
+let name: String? = nil
+
+var unwrappedName = ""
+
+if name != nil {
+    unwrappedName = name!
+}
+
+print(unwrappedName)

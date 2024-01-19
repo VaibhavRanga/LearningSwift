@@ -90,6 +90,7 @@ print(user1.accountType.description)
 
 
 
+
 //MARK: Instagram example
 
 protocol FeedItemProtocol {
