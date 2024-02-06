@@ -1,6 +1,15 @@
+
+
+//arrays are: ordered, slow, can contain duplicates
+
+
 //blank array
 
 var shoppingCart = [String]()
+//or
+var myArray: [String] = []
+
+myArray.append("Sdfjoisdf")
 
 //initializing while declaring
 
@@ -28,3 +37,6 @@ prices.removeFirst()    //removes the first item
 prices.removeLast()     //removes the last item
 print(prices)
 
+prices.sort()
+prices.reverse()
+prices.shuffle()

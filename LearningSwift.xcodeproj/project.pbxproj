@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		B109C5CD2B5AD654008974CF /* Protocols.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocols.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B1361A802B7268D50005804B /* Sets.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sets.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B1455BAE2B4C104900C04457 /* CodingExercise1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CodingExercise1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B14C204A2B4C69DF00FBA849 /* Patterns.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Patterns.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B15106EF2B49741000C7B24D /* Loops.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Loops.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -28,6 +29,7 @@
 		B1DD643D2B4170DA00F72D5E = {
 			isa = PBXGroup;
 			children = (
+				B1361A802B7268D50005804B /* Sets.playground */,
 				B109C5CD2B5AD654008974CF /* Protocols.playground */,
 				B15814782B5AA39F0039916B /* Enums.playground */,
 				B14C204A2B4C69DF00FBA849 /* Patterns.playground */,
