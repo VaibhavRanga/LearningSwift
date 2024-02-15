@@ -35,3 +35,11 @@ while countDown >= 0 && test >= 5 {
     test -= 1
 }
 print("Rocket launches")
+
+print("-----------------------------")
+
+var names = ["Vaibhav", "Karuna", "Dinesh", "Suresh", "Mahesh"]
+
+for name in names where name == "Dinesh" {
+    print(name)
+}

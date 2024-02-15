@@ -15,6 +15,8 @@
 		B15106F02B49842600C7B24D /* Optionals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Optionals.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B15814782B5AA39F0039916B /* Enums.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enums.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B17502962B41F47200113CD5 /* Dictionaries.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Dictionaries.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B1AD5C1E2B7E38FB0017B92D /* Tuples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tuples.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B1CBA3CC2B7C9558000C270D /* Classes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Classes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B1DD64442B4170FF00F72D5E /* Variables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Variables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B1DD64452B417A9200F72D5E /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B1DD64462B417F0600F72D5E /* StringInterpolation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StringInterpolation.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -29,6 +31,8 @@
 		B1DD643D2B4170DA00F72D5E = {
 			isa = PBXGroup;
 			children = (
+				B1AD5C1E2B7E38FB0017B92D /* Tuples.playground */,
+				B1CBA3CC2B7C9558000C270D /* Classes.playground */,
 				B1361A802B7268D50005804B /* Sets.playground */,
 				B109C5CD2B5AD654008974CF /* Protocols.playground */,
 				B15814782B5AA39F0039916B /* Enums.playground */,
