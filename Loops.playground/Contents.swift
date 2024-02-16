@@ -43,3 +43,37 @@ var names = ["Vaibhav", "Karuna", "Dinesh", "Suresh", "Mahesh"]
 for name in names where name == "Dinesh" {
     print(name)
 }
+
+
+print("-----------------------------")
+
+
+
+struct LessonModel {
+    let title: String
+    let isFavorite: Bool
+}
+
+let lessons: [LessonModel] = [
+    LessonModel(title: "Lesson 1", isFavorite: false),
+    LessonModel(title: "Lesson 2", isFavorite: true),
+    LessonModel(title: "Lesson 3", isFavorite: true),
+    LessonModel(title: "Lesson 4", isFavorite: false)
+]
+
+var favoriteLessons: [LessonModel] = []
+
+for lesson in lessons {
+    if lesson.isFavorite {
+        favoriteLessons.append(lesson)
+    }
+}
+
+print(favoriteLessons)
+
+
+for (n, x) in lessons.enumerated() {        //enumerated sequence with the index and its corresponding element
+    print("index: \(n) and lesson: \(x)")
+}
+
+//"break" causes the loop to end while "continue" makes the loop to immediately jump to the next iteration

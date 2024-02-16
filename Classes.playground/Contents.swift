@@ -1,3 +1,11 @@
+/*
+ Classes are reference types and are stored in heap memory with a pointer to the object of the class in heap memory and any change to its properties is done at the memory location.
+ They require an initializer and may have a deinitializer (deinit).
+ They are slower than structs and support inheritance.
+ We can create objects of classes with a let keyword and still make changes to its properties whereas for structs we need var to make them mutable.
+ They have higher memory footprint compared to structs with the later being thread safe too.
+ Unlike structs we need not mark a function inside the struct mutating, in order to mutate a property.
+ */
 
 class Developer {
     var name: String?
@@ -19,7 +27,7 @@ class Developer {
     }
 }
 
-var developer1 = Developer(name: "Vaibhav", jobTitle: "iOS Engineer", yearsExp: 5)
+let developer1 = Developer(name: "Vaibhav", jobTitle: "iOS Engineer", yearsExp: 5)
 
 let developer2 = Developer()
 
@@ -50,8 +58,8 @@ class iOSDeveloper: Developer {
     }
 }
 
-var iOSDeveloper1 = iOSDeveloper(name: "Sean", jobTitle: "iOSGuy", yearsExp: 3)
-var iOSDeveloper2 = iOSDeveloper()
+let iOSDeveloper1 = iOSDeveloper(name: "Sean", jobTitle: "iOSGuy", yearsExp: 3)
+let iOSDeveloper2 = iOSDeveloper()
 
 iOSDeveloper1.favoriteFramework = "ARKit"
 

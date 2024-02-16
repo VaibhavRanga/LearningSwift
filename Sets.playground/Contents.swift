@@ -1,6 +1,6 @@
 
-//set: can't contain duplicates, are fast and unordered
-//they are provide constant time lookup
+//Set: can't contain duplicates, are fast and unordered
+//they provide constant time lookup
 //must conform to hashable (where hashable is an identifier)
 //string, int, bool etc automatically conform to hashable
 //custom or user created data types need to be conformed to hashable

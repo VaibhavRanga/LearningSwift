@@ -21,8 +21,10 @@ var prices = [123, 234, 23, 1293, 1, 34, 53498, 327, 82]
 shoppingCart.append("MacBook")   //add data at the end of the array
 shoppingCart.append("iPhone")
 
-shoppingCart.insert("iPad", at: 1)
+shoppingCart.insert("iPad", at: 1)  //add data at an index
+shoppingCart.append(contentsOf: ["Apple watch", "Airpods"])     //add multiple items
 
+shoppingCart.indices    //indices of the contained elements
 print(shoppingCart)
 
 //accessing items
@@ -35,8 +37,24 @@ let f1Driver1 = f1Drivers[2]
 prices.remove(at: 2)    //removes item at specified index
 prices.removeFirst()    //removes the first item
 prices.removeLast()     //removes the last item
+//prices.removeAll()    //removes all the items in the array
+
 print(prices)
 
 prices.sort()
 prices.reverse()
 prices.shuffle()
+
+
+//Using arrays with custom data types
+
+struct ProductModel {
+    let name: String
+    let price: Int
+}
+
+var myProducts: [ProductModel] = [
+    ProductModel(name: "Product 1", price: 345),
+    ProductModel(name: "Product 2", price: 22),
+    ProductModel(name: "Product 6", price: 9)
+]
