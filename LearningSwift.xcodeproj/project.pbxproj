@@ -12,6 +12,7 @@
 		B1418D0B2B7F597900A15EA7 /* FilterSortMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FilterSortMap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B1455BAE2B4C104900C04457 /* CodingExercise1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CodingExercise1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B14C204A2B4C69DF00FBA849 /* Patterns.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Patterns.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B14E7F172BA1FEAD00EC665C /* Errors.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Errors.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B15106EF2B49741000C7B24D /* Loops.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Loops.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B15106F02B49842600C7B24D /* Optionals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Optionals.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B15814782B5AA39F0039916B /* Enums.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enums.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -31,6 +32,7 @@
 		B1DD643D2B4170DA00F72D5E = {
 			isa = PBXGroup;
 			children = (
+				B14E7F172BA1FEAD00EC665C /* Errors.playground */,
 				B1418D0B2B7F597900A15EA7 /* FilterSortMap.playground */,
 				B1AD5C1E2B7E38FB0017B92D /* Tuples.playground */,
 				B1CBA3CC2B7C9558000C270D /* Classes.playground */,
@@ -59,7 +61,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1530;
 			};
 			buildConfigurationList = B1DD64412B4170DA00F72D5E /* Build configuration list for PBXProject "LearningSwift" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -81,6 +83,7 @@
 		B1DD64422B4170DA00F72D5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -117,6 +120,7 @@
 		B1DD64432B4170DA00F72D5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
