@@ -49,7 +49,7 @@ print(usersSortedByOrder2)
 print("----------------------------------------------------")
 
 
-//Map: extract some data of a data type from a collection
+//Map: extract some data of a data type from a collection or convert the data types of an array to some other data type
 
 
 var userNames1: [String] = allUsers.map { user in
