@@ -104,3 +104,36 @@ struct Post: FeedItemProtocol {
 struct Reel: FeedItemProtocol {
     var caption: String
 }
+
+
+
+
+
+
+
+//MARK: hacking with swift
+
+
+protocol Building {
+    var numberOfRooms: Int { get set }
+    var costOfBuilding: Int { get set }
+    var realEstateAgent: String { get set }
+    
+    func buildingSummary()
+}
+
+struct House: Building {
+    var numberOfRooms: Int
+    var costOfBuilding: Int
+    var realEstateAgent: String
+    
+    init(numberOfRooms: Int, costOfBuilding: Int, realEstateAgent: String) {
+        self.numberOfRooms = numberOfRooms
+        self.costOfBuilding = costOfBuilding
+        self.realEstateAgent = realEstateAgent
+    }
+    
+    func buildingSummary() {
+        print("The house has \(numberOfRooms) rooms and it's cost is \(costOfBuilding). To purchase the house you can contact \(realEstateAgent)")
+    }
+}

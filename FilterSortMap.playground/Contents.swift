@@ -60,3 +60,23 @@ var userNames2: [String] = allUsers.map({ $0.name})     //short-hand notation
 
 print(userNames1)
 print(userNames2)
+
+
+
+
+
+
+
+print("----------------------------------------------------")
+
+let luckyNumbers = [7, 4, 38, 21, 16, 15, 12, 33, 31, 49]
+
+var filterOddNumbers = luckyNumbers.filter { !$0.isMultiple(of: 2) }
+
+var sortedNumbers = filterOddNumbers.sorted()
+
+var numberToString = sortedNumbers.map { "\($0) is a lucky number" }
+
+for (index, item) in numberToString.enumerated() {
+    print(item)
+}
