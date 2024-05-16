@@ -42,6 +42,19 @@ developer2.printName()
 class iOSDeveloper: Developer {
     var favoriteFramework: String?
     
+    override init() { 
+        super.init()
+    }
+    
+    override init(name: String, jobTitle: String, yearsExp: Int) {
+        super.init()
+    }
+    
+    init(favoriteFramework: String, name: String, jobTitle: String, yearsExp: Int) {
+        self.favoriteFramework = favoriteFramework
+        super.init()
+    }
+    
     func printFavoriteFramework() {
         if let favoriteFramework = favoriteFramework {
             print("Favorite framework is: \(favoriteFramework)")
@@ -60,6 +73,7 @@ class iOSDeveloper: Developer {
 
 let iOSDeveloper1 = iOSDeveloper(name: "Sean", jobTitle: "iOSGuy", yearsExp: 3)
 let iOSDeveloper2 = iOSDeveloper()
+let iOSDeveloper3 = iOSDeveloper(favoriteFramework: "UIKit", name: "SomeName", jobTitle: "SomeTitle", yearsExp: 8)
 
 iOSDeveloper1.favoriteFramework = "ARKit"
 

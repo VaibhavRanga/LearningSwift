@@ -73,7 +73,7 @@ case .serverError:
 
 enum OrderStatus {
     case processed
-    case shipped(trackingId: String, shippingTime: Int)        //with associated values we can't give a data type viz. Int to the OrderStatus enum
+    case shipped(trackingId: String, shippingTime: Int)        //with associated values we can't give a raw value data type viz. Int to the OrderStatus enum
     case delivered
     
     var statusMessage: String {                                //computed properties

@@ -26,10 +26,10 @@ user1.1
 //We can give names to the return types for better readability
 
 func getUserInfo2() -> (name: String, isUserNew: Bool) {
-    var name = "Vaibhav"
-    var isUserNew = true
+    var someName = "Vaibhav"
+    var isSomeUserNew = true
     
-    return (name, isUserNew)
+    return (someName, isSomeUserNew)
 }
 
 var user2 = getUserInfo2()

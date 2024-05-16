@@ -5,13 +5,19 @@
 //string, int, bool etc automatically conform to hashable
 //custom or user created data types need to be conformed to hashable
 
+let myNilSet: Set<String>? = nil              // a nil set
+
+print(myNilSet ?? "none")
+
+let myEmptySet = Set<String>()                  //an empty set
+print(myEmptySet)
+
 var mySet: Set<Int> = [123, 34, 53, 89, 23, 890, 7]
 
 mySet.insert(339)
 
 print(mySet)
 mySet.contains(892)
-
 
 
 

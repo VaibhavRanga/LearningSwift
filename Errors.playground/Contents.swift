@@ -48,7 +48,7 @@ enum SqrtError: Error {
 }
 
 func calculateSquareRoot(of number: Int) throws -> Int {
-    if number < 1 || number > 10000 {
+    if !(1...10000 ~= number) {
         throw SqrtError.outOfBounds
     }
     

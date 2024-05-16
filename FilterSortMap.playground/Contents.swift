@@ -22,7 +22,7 @@ var premiumUsers1: [DatabaseUser] = allUsers.filter { user in
     return user.isPremium
 }
 
-var premiumUsers2: [DatabaseUser] = allUsers.filter({ $0.isPremium })   //short-hand notation
+var premiumUsers2: [DatabaseUser] = allUsers.filter{ $0.isPremium }   //short-hand notation
 
 print(premiumUsers1)
 print(premiumUsers2)
@@ -38,7 +38,7 @@ var usersSortedByOrder1: [DatabaseUser] = allUsers.sorted { user1, user2 in
     return user1.orderNo <= user2.orderNo
 }
 
-var usersSortedByOrder2: [DatabaseUser] = allUsers.sorted(by: { $0.orderNo <= $1.orderNo})      //short-hand notation
+var usersSortedByOrder2: [DatabaseUser] = allUsers.sorted { $0.orderNo <= $1.orderNo }      //short-hand notation
 
 print(usersSortedByOrder1)
 print(usersSortedByOrder2)
@@ -56,7 +56,7 @@ var userNames1: [String] = allUsers.map { user in
     return user.name
 }
 
-var userNames2: [String] = allUsers.map({ $0.name})     //short-hand notation
+var userNames2: [String] = allUsers.map { $0.name}     //short-hand notation
 
 print(userNames1)
 print(userNames2)

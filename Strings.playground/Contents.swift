@@ -25,3 +25,9 @@ func spellChecker() {
     
     let allGood = misspelledRange.location == NSNotFound
 }
+
+let word = "swift"
+
+if let position = word.firstIndex(of: "f") {
+    print(word[position])
+}
