@@ -9,7 +9,7 @@
 /* Begin PBXFileReference section */
 		B109C5CD2B5AD654008974CF /* Protocols.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocols.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B1361A802B7268D50005804B /* Sets.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sets.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		B1418D0B2B7F597900A15EA7 /* FilterSortMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FilterSortMap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B1418D0B2B7F597900A15EA7 /* FilterSortMapReduce.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FilterSortMapReduce.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B1455BAE2B4C104900C04457 /* CodingExercise1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CodingExercise1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B14C204A2B4C69DF00FBA849 /* Patterns.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Patterns.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B14E7F172BA1FEAD00EC665C /* Errors.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Errors.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -39,7 +39,7 @@
 				B1784DB92BBEB377001EF1D9 /* DateTime.playground */,
 				B15117842BA6636A001A6C90 /* Extensions.playground */,
 				B14E7F172BA1FEAD00EC665C /* Errors.playground */,
-				B1418D0B2B7F597900A15EA7 /* FilterSortMap.playground */,
+				B1418D0B2B7F597900A15EA7 /* FilterSortMapReduce.playground */,
 				B1AD5C1E2B7E38FB0017B92D /* Tuples.playground */,
 				B1CBA3CC2B7C9558000C270D /* Classes.playground */,
 				B1361A802B7268D50005804B /* Sets.playground */,

@@ -77,6 +77,34 @@ var sortedNumbers = filterOddNumbers.sorted()
 
 var numberToString = sortedNumbers.map { "\($0) is a lucky number" }
 
+var reduce = luckyNumbers.reduce(0, +)
+
 for (index, item) in numberToString.enumerated() {
     print(item)
 }
+
+
+
+
+
+
+
+
+
+struct App {
+    let name: String
+    let monthlyPrice: Double
+    let users: Int
+}
+
+let appPortfolio = [
+    App(name: "app1", monthlyPrice: 12.12, users: 10),
+    App(name: "app2", monthlyPrice: 13.13, users: 10),
+    App(name: "app3", monthlyPrice: 10, users: 1000)
+]
+
+let revenue = appPortfolio.reduce(0, { $0 + ($1.monthlyPrice * Double($1.users)) })
+
+let alsoRevenue = appPortfolio.reduce(0) { $0 + ($1.monthlyPrice * Double($1.users)) }
+
+print(revenue)
